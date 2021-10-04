@@ -1,2 +1,0 @@
-xcar-hardware/razor_imu_9dof:xcar-hardware/urg_node:xcar-hardware/vesc/vesc:xcar-hardware/vesc/vesc_ackermann:xcar-hardware/vesc/vesc_driver:xcar-hardware/vesc/vesc_msgs:xcar-main/xcar/ackermann_cmd_mux:xcar-main/xcar/control
--DCATKIN_DEVEL_PREFIX=/home/nvidia/thu-Xcar/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/thu-Xcar/install -G Unix Makefiles
