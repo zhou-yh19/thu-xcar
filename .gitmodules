@@ -13,3 +13,6 @@
 [submodule "src/xcar-process/robot_pose_ekf"]
 	path = src/xcar-process/robot_pose_ekf
 	url = git@github.com:udacity/robot_pose_ekf.git
+[submodule "src/xcar-main/xcar"]
+	path = src/xcar-main/xcar
+	url = git@github.com:BobTesla17/xcar.git
