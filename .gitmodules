@@ -1,6 +1,3 @@
-[submodule "src/racecar"]
-	path = src/racecar
-	url = git@github.com:BobTesla17/racecar.git
 [submodule "src/xcar-hardware/vesc"]
 	path = src/xcar-hardware/vesc
 	url = git@github.com:BobTesla17/vesc.git
