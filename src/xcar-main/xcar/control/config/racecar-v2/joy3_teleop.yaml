@@ -1,0 +1,28 @@
+joy_node:
+  deadzone: 0.01
+  autorepeat_rate: 100
+  coalesce_interval: 0.01
+
+teleop:
+  # Default mode - Stop for safety
+  default:
+    type: topic
+    is_default: true
+    message_type: std_msgs/Bool
+    topic_name: /Safe
+    message_value:
+      -
+        target: data
+        value: false
+
+
+  # Enable Human control by holding Left Bumper
+  human_control_a:
+    type: topic
+    message_type: std_msgs/Bool
+    topic_name: /Safe
+    deadman_buttons: [4]
+    message_value:
+      -
+        target: data
+        value: true

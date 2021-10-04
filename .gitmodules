@@ -1,0 +1,18 @@
+[submodule "src/racecar"]
+	path = src/racecar
+	url = git@github.com:BobTesla17/racecar.git
+[submodule "src/xcar-hardware/vesc"]
+	path = src/xcar-hardware/vesc
+	url = git@github.com:BobTesla17/vesc.git
+[submodule "src/xcar-hardware/razor_imu_9dof"]
+	path = src/xcar-hardware/razor_imu_9dof
+	url = git@github.com:ENSTABretagneRobotics/razor_imu_9dof.git
+[submodule "src/xcar-hardware/urg_node"]
+	path = src/xcar-hardware/urg_node
+	url = git@github.com:ros-drivers/urg_node.git
+[submodule "src/xcar-hardware/zed-ros-wrapper"]
+	path = src/xcar-hardware/zed-ros-wrapper
+	url = git@github.com:stereolabs/zed-ros-wrapper.git
+[submodule "src/xcar-process/robot_pose_ekf"]
+	path = src/xcar-process/robot_pose_ekf
+	url = git@github.com:udacity/robot_pose_ekf.git

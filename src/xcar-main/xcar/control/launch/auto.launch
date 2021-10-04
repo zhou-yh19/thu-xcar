@@ -1,0 +1,49 @@
+<launch>
+  <arg name="racecar_version" default="racecar-v2" />
+  <include file="$(find racecar)/launch/vesc.launch"/>
+<node pkg="tf" type="static_transform_publisher" name="base_link_to_imu" 
+    args="0.0 0.0 0.0 0.0 0.0 0.0 /base_link /imu 100" />
+
+<include file="$(find racecar)/launch/includes/common/sensors.launch.xml">
+<arg name="racecar_version" value="$(arg racecar_version)"/>
+</include>
+
+ 
+
+<!--node pkg="robot_pose_ekf" type="robot_pose_ekf" name="robot_pose_ekf">
+  <param name="output_frame" value="odom"/>
+  <param name="base_footprint_frame" value="base_link"/>
+  <param name="freq" value="60.0"/>
+  <param name="sensor_timeout" value="10.0"/>  
+  <param name="odom_used" value="true"/>
+  <param name="imu_used" value="true"/>
+  <param name="vo_used" value="false"/>
+  <remap from="odom" to="/vesc/odom" />
+  <remap from="imu_data" to="imu" /> 
+</node-->
+
+
+<arg name="server" default="192.168.8.20"/>
+
+  <node pkg="vrpn_client_ros" type="vrpn_client_node" name="vrpn_client_node" output="screen">
+    <rosparam subst_value="true">
+      server: $(arg server)
+      port: 3883
+
+      update_frequency: 100.0
+      frame_id: world
+
+      # Use the VRPN server's time, or the client's ROS time.
+      use_server_time: true
+      broadcast_tf: true
+
+      # Must either specify refresh frequency > 0.0, or a list of trackers to create
+      refresh_tracker_frequency: 1.0
+      #trackers:
+      #- FirstTracker
+      #- SecondTracker
+    </rosparam>
+  </node>
+
+
+</launch>
