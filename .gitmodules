@@ -16,3 +16,6 @@
 [submodule "src/xcar-main/xcar"]
 	path = src/xcar-main/xcar
 	url = git@github.com:BobTesla17/xcar.git
+[submodule "src/xcar-control/control-v1"]
+	path = src/xcar-control/control-v1
+	url = git@git.tsinghua.edu.cn:xcar/control-v1.git
