@@ -22,4 +22,4 @@
 * caslx server
 1. `ssh yangbo@192.168.31.60`远程登录server
 2. `jupyter-lab`启动jupyter
-3. 运行**/control-v1/xcar**里的notebook文件
+3. 运行**xcar**里的notebook文件
