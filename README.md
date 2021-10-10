@@ -8,6 +8,9 @@
 	- imu
 	- lidar
 	- ...
+* **xcar-simulation**包含xcar仿真平台，支持同步和异步仿真
+	- 同步仿真：直接在Julia代码中调用仿真函数
+	- 异步仿真：运行一个ROS节点，模拟真车的接口
 * **xcar-control**包含xcar的控制程序
 	- **control-v1**是第一个版本的漂移控制程序，包括julia仿真和实车实验的程序
 
