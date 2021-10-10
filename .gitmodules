@@ -19,3 +19,6 @@
 [submodule "src/xcar-control/control-v1"]
 	path = src/xcar-control/control-v1
 	url = git@git.tsinghua.edu.cn:xcar/control-v1.git
+[submodule "src/xcar-simulation"]
+	path = src/xcar-simulation
+	url = git@git.tsinghua.edu.cn:xcar/xcar-simulation.git
