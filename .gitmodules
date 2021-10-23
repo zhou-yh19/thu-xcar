@@ -1,24 +1,30 @@
 [submodule "src/xcar-hardware/vesc"]
 	path = src/xcar-hardware/vesc
 	url = git@github.com:BobTesla17/vesc.git
+	branch = xcar-main
 [submodule "src/xcar-hardware/razor_imu_9dof"]
 	path = src/xcar-hardware/razor_imu_9dof
 	url = git@github.com:ENSTABretagneRobotics/razor_imu_9dof.git
+	branch = indigo-devel
 [submodule "src/xcar-hardware/urg_node"]
 	path = src/xcar-hardware/urg_node
 	url = git@github.com:ros-drivers/urg_node.git
+	branch = kinetic-devel
 [submodule "src/xcar-hardware/zed-ros-wrapper"]
 	path = src/xcar-hardware/zed-ros-wrapper
 	url = git@github.com:stereolabs/zed-ros-wrapper.git
-[submodule "src/xcar-process/robot_pose_ekf"]
-	path = src/xcar-process/robot_pose_ekf
-	url = git@github.com:udacity/robot_pose_ekf.git
-[submodule "src/xcar-main/xcar"]
-	path = src/xcar-main/xcar
+[submodule "src/xcar"]
+	path = src/xcar
 	url = git@github.com:BobTesla17/xcar.git
+	branch = xcar-main
 [submodule "src/xcar-control/control-v1"]
 	path = src/xcar-control/control-v1
 	url = git@git.tsinghua.edu.cn:xcar/control-v1.git
+	branch = main
 [submodule "src/xcar-simulation"]
 	path = src/xcar-simulation
 	url = git@git.tsinghua.edu.cn:xcar/xcar-simulation.git
+	branch = main
+[submodule "src/xcar-hardware/vrpn_client_ros"]
+	path = src/xcar-hardware/vrpn_client_ros
+	url = git@github.com:ros-drivers/vrpn_client_ros.git
