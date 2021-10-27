@@ -20,9 +20,10 @@
 * nvidia jetson tx2
 
 1. `ssh nvidia@192.168.31.17`远程登录xcar
-2. `roslaunch racecar auto.launch`启动xcar的ros各个node
+2. `roslaunch xcar auto.launch`启动xcar的ros各个node
 
 * caslx server
 1. `ssh yangbo@192.168.31.60`远程登录server
+2. `conda activate ros`启动环境
 2. `jupyter-lab`启动jupyter
 3. 运行**xcar**里的notebook文件
