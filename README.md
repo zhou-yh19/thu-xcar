@@ -23,7 +23,7 @@
 2. `roslaunch xcar auto.launch`启动xcar的ros各个node
 
 * caslx server
-1. `ssh yangbo@192.168.31.60`远程登录server
+1. `ssh yangbo@192.168.31.60`远程登录server，密码:`yangb21`
 2. `conda activate ros`启动环境
 2. `jupyter-lab`启动jupyter
 3. 运行**xcar**里的notebook文件
