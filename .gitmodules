@@ -28,3 +28,4 @@
 [submodule "/home/yangbo/thu-xcar/src/xcar-hardware/razor-imu_9dof"]
 	path = /home/yangbo/thu-xcar/src/xcar-hardware/razor-imu_9dof
 	url = git@github.com:BobTesla17/razor_imu_9dof.git
+	branch = indigo-devel
