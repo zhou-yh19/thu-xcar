@@ -2,10 +2,6 @@
 	path = src/xcar-hardware/vesc
 	url = git@github.com:BobTesla17/vesc.git
 	branch = xcar-main
-[submodule "src/xcar-hardware/razor_imu_9dof"]
-	path = src/xcar-hardware/razor_imu_9dof
-	url = git@github.com:ENSTABretagneRobotics/razor_imu_9dof.git
-	branch = indigo-devel
 [submodule "src/xcar-hardware/urg_node"]
 	path = src/xcar-hardware/urg_node
 	url = git@github.com:ros-drivers/urg_node.git
@@ -29,3 +25,6 @@
 	path = src/xcar-hardware/vrpn_client_ros
 	url = git@github.com:ros-drivers/vrpn_client_ros.git
 	branch = kinetic-devel
+[submodule "/home/yangbo/thu-xcar/src/xcar-hardware/razor-imu_9dof"]
+	path = /home/yangbo/thu-xcar/src/xcar-hardware/razor-imu_9dof
+	url = git@github.com:BobTesla17/razor_imu_9dof.git
